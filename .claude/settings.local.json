@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(del app\\\\blog2\\\\[slug]\\\\page.jsx)",
+      "Bash(cmd /c \"dir /b /s *.js *.jsx *.css 2>nul | findstr /v node_modules | findstr /v .next | findstr /v postcss | findstr /v globals\")",
+      "PowerShell(Get-Process -Name \"node\" -ErrorAction SilentlyContinue)",
+      "Bash(npm install *)"
+    ]
+  }
+}
